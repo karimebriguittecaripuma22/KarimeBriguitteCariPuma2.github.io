@@ -1,0 +1,145 @@
+/* Fuentes */
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #e0d6c2;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #d4b483;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #5a4a3a;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.subtitle {
+    color: #8c7b6b;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Secciones */
+.section {
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #7d6b5b;
+    border-bottom: 2px solid #d4b483;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Lista de cursos */
+.courses-list {
+    columns: 2;
+    list-style-type: none;
+    padding: 0;
+}
+
+.courses-list li {
+    padding: 8px 0;
+    border-bottom: 1px dotted #d4b483;
+}
+
+/* Botones y enlaces */
+.btn {
+    display: inline-block;
+    background-color: #a38f78;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #7d6b5b;
+}
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Información de contacto */
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    padding: 8px 0;
+    border-bottom: 1px dotted #d4b483;
+}
+
+.contact-info a {
+    color: #7d6b5b;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #8c7b6b;
+    border-top: 1px solid #e0d6c2;
+    margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .courses-list {
+        columns: 1;
+    }
+    
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+}
