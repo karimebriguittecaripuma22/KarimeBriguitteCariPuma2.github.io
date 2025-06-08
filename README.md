@@ -1,6 +1,6 @@
 # Página Web de Biografía Personal
 
-[Vista previa de mi página](https://karimebriguittecaripuma22.github.io/KarimeBriguitteCariPuma2.github.io/)
+[Vista previa de mi página](https://karimebriguittecaripuma22.github.io/)
 
 Este es mi sitio web personal donde comparto mi biografía, información académica y datos de contacto.
 
